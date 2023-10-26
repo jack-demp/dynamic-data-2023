@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Oswald:wght@700&display=swap');
+
+.montserrat { font-family: 'Montserrat', sans-serif; font-weight: 400; }
+
+.montserrat-bold { font-family: 'Montserrat', sans-serif; font-weight: 600; }
+
+.oswald { font-family: 'Oswald', sans-serif; font-weight: 700;}
+body {
+    scroll-behavior: smooth;
+}
+
+.white-bg {
+    background-color: #FFFFFF;
+}
+
+.primary-color {
+    color: #FFFFFF;
+}
+.primary-color-light {
+   color: #FFFFFF
+}
+
+.accordion-button:not(.collapsed) {
+    color: #FFFFFF;
+    background-color: #FFFFFF;
+  }
+
+.primary-color-bg {
+    background-color: #FFFFFF;
+}
+.primary-color-light-bg {
+   background-color: #FFFFFF
+}
+.secondary-color, nav .secondary-color-light:hover {
+    color: #000000;
+}
+.secondary-color-light {
+    color: #000000;
+}
+.secondary-color-bg {
+    background-color: #AAAA39;
+}
+.secondary-color-light-bg {
+    background-color: #000000;
+}
+

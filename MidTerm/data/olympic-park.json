@@ -1,0 +1,32 @@
+{
+    "title":"Hard Rock Hotel & Casino",
+    "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo laborum dolor sequi, non delectus quos esse officia doloremque ipsa, aliquam optio maiores, asperiores ea eligendi temporibus magnam cupiditate ex quae.",
+    "slideshow":[
+        "/img/slides/skyline.jpg",
+        "/img/slides/bayside.jpg",
+        "/img/slides/miamibeach.jpg"
+    ],
+    "services":[
+        {
+            "title":"Transportation",
+            "intro":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sunt magni maiores voluptatem, tempore voluptates.",
+            "lists":[
+                "Service 1",
+                "Service 2",
+                "Service 3"
+            ],
+            "image":"/img/homepage/transportation.jpg",
+            "show":"show"
+        },
+        {
+            "title":"Miami Tours",
+            "intro":"Adipisci numquam quasi impedit, fuga eligendi culpa aut reprehenderit cum quisquam inventore quis magni vitae?",
+            "lists":[
+                "Service 1",
+                "Service 2",
+                "Service 3"
+            ],
+            "image":"/img/homepage/tours.jpg"
+        }
+    ]
+}
