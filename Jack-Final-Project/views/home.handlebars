@@ -1,0 +1,81 @@
+<div class="section-divider" id="about"></div>
+
+
+{{#if slideshow}}
+  <div class="owl-slideshow owl-carousel owl-theme">
+    {{#each slideshow}}
+      <div class="item">
+        <a href="/item/{{id}}" class="gallery-img">
+          <img class="carousel-img-fluid" src="{{this.image}}" alt="{{this.title}}">
+        </a>
+      </div>
+    {{/each}}      
+  </div>
+{{/if}}
+
+{{#if products}}
+<div class="section-divider" id="services"></div>
+<h2 class="section-header" id="packages">Featured Products</h2>
+<div class="owl-theme owl-carousel owl-packages">
+    {{#each products}}
+    <div class="card">
+        {{#if this.image}}
+        <a href="/item/{{this.id}}" class="gallery-img">
+          <img src="{{this.image}}" class="card-img-top" alt="...">
+        </a>
+        {{/if}}
+        <div class="card-body">
+            <h5 class="card-title">{{this.title}}</h5>
+        </div>
+        <ul class="list-group list-group-flush nanumMyeongjo-regular">
+            <li class="list-group-item">{{this.price}}</li>
+        </ul>
+    </div>
+    {{/each}}
+</div>
+{{/if}}
+
+<div class="gallery-container">
+  <div class="section-divider" id="gallery"></div>
+  <h2 class="section-header">Category Gallery</h2>
+  <div class="row">
+    <!--games item-->
+    {{#if games}}
+      <div class="col-3">
+        {{#each games}}
+          <a href="/item/{{id}}" class="gallery-img">
+            <img src="{{image}}" alt="{{title}}" class="img-thumbnail">
+            <h5>Games</h5>
+          </a>
+        {{/each}}
+      </div>
+    {{/if}}
+    
+    {{#if posters}}
+      <div class="col-3">
+        {{#each posters}}
+          <a href="/item/{{id}}" class="gallery-img">
+            <img src="{{image}}" alt="{{title}}" class="img-thumbnail">
+            <h5>Posters</h5>
+          </a>
+        {{/each}}
+      </div>
+    {{/if}}
+    
+    {{#if accessories}}
+      <div class="col-3">
+        {{#each accessories}}
+          <a href="/item/{{id}}" class="gallery-img">
+            <img src="{{image}}" alt="{{title}}" class="img-thumbnail">
+            <h5>Acccesories</h5>
+          </a>
+        {{/each}}
+      </div>
+    {{/if}}
+  </div>
+</div>
+
+
+<footer class="white-bg">
+  Copyright 2023 - Jack Dempster
+</footer>

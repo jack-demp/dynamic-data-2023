@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* colors */
+.background-color {
+    background-color: #ffffff;
+}
+
+.background-color-light {
+    background-color: #ffffff;
+}
+
+.background-color-lighter {
+    background-color: #ffffff;
+}
+
+.background-color-lightest {
+    background-color: #ffffff;
+}
+
+.accent-color {
+    background-color: #ffffff;
+}
+
+.accent-color-light {
+    background-color: #ffffff;
+}
+
+.accent-color-lighter {
+    background-color: #ffffff;
+}
+
+.accent-color-lightest {
+    background-color: #ffffff;
+}
+
+/* navbar */
+.container-fluid {
+    padding: 1rem;
+}
+
+.nav-content {
+    padding: 1rem;
+}
+
+.nav-item:hover {
+    color: rgb(255, 255, 255);
+    background-color: #f95656;
+}
+
+.navbar-logo img {
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.d-flex {
+    padding: 2rem;
+    padding-left: 3rem;
+}
+
+/* basic tags */
+p {
+    padding: 2rem;
+    padding-bottom: 0rem;
+}
+
+h1 {
+    padding: 2rem;
+}
+
+.section-header {
+    padding: 2rem;
+    padding-top: 0rem;
+}
+
+.section-divider {
+    padding: 1rem;
+}
+
+footer {
+    padding: 2rem;
+}
+
+/* owl carousel */
+.owl-dots {
+    padding: 2rem;
+}
+
+.owl-nav {
+    display: none;
+}
+.nav-content {
+    padding: 1rem;
+    background-color: #4aa0ec; 
+    border-radius: 15px; 
+}
+
+/* Default size */
+.navbar-logo img {
+    width: 100%; /* Full width of its parent */
+    max-width: 200px; /* Maximum size */
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .navbar-logo img {
+        max-width: 150px;
+    }
+}
+
+/* Adjust size on even smaller screens */
+@media (max-width: 480px) {
+    .navbar-logo img {
+        max-width: 100px;
+    }
+}
+
+
+.img-fluid {
+    object-fit: cover;
+    height: 15rem;
+    width: 30rem;
+    aspect-ratio: 1/1;
+    padding-left: 5rem;
+}
+
+.carousel-img-fluid {
+    object-fit: cover;
+    height: 5rem;
+    aspect-ratio: 1/2;
+}
+
+
+.gallery-img img {
+    object-fit: cover;
+    height: 20rem;
+    aspect-ratio: 1/1;
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 20rem;
+    aspect-ratio: 1/1;
+}
+
+.card-text {
+    padding: 2rem;
+}
+
+.img-thumbnail {
+    height: 30rem;
+    display: block;
+    margin: auto;
+}
+
+
+ul.cart-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.cart-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.cart-img {
+    width: 10rem; 
+    height: auto;
+    margin-right: 20px; 
+}
+
+ul.cart-item-details {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.cart-item-details li {
+    padding: 5px;
+}
+
+
+#checkout-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px; 
+    margin: 0; 
+}
+
+#checkout-form label {
+    margin-bottom: 5px; 
+}
+
+#checkout-form input, 
+#checkout-form button {
+    margin-bottom: 10px; 
+}

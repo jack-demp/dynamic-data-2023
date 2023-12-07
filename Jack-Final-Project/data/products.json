@@ -1,0 +1,472 @@
+{
+    "products":[
+        {
+            "id": 1,
+            "category": "Games",
+            "title":"Sonic the Hedgehog",
+            "image":"/img/games/games-1a.webp",
+            "images":[
+                "/img/games/games-1a.webp",
+                "/img/games/games-1b.jpg",
+                "/img/games/games-1c.jpeg",
+                "/img/games/games-1d.jpeg"
+            ],
+            "price":"$40"
+        },
+        {
+            "id": 2,
+            "category": "Games",
+            "title":"Super Mario Wonder",
+            "image":"/img/games/games-2a.jpg",
+            "images":[
+                "/img/games/games-2a.jpg",
+                "/img/games/games-2b.jpg",
+                "/img/games/games-2c.webp",
+                "/img/games/Super Mario Wonder.jpeg"
+            ],
+            "price":"$70"
+        },
+        {
+            "id": 3,
+            "category": "Games",
+            "title":"Call of Duty MW3",
+            "image":"/img/games/games-3a.jpeg",
+            "images":[
+                "/img/games/games-3a.jpeg",
+                "/img/games/games-3b.jpeg",
+                "/img/games/games-3d.jpg",
+                "/img/games/games-3d.jpg"
+            ],
+            "price":"$70"
+        },
+        {
+            "id": 4,
+            "category": "Games",
+            "title":"Fortnite",
+            "image":"/img/games/games-4a.jpg",
+            "images":[
+                "/img/games/games-4a.jpg",
+                "/img/games/games-4b.jpeg",
+                "/img/games/games-4c.webp",
+                "/img/games/games-4d.jpeg"
+            ],
+            "price":"$0"
+        },
+        {
+            "id": 5,
+            "category": "Games",
+            "title":"Minecraft",
+            "image":"img/games/games-5a.webp",
+            "images":[
+                "/img/games/games-5a.webp",
+                "/img/games/games-5b.avif",
+                "/img/games/games-5c.jpeg",
+                "/img/games/games-5d.avif"
+            ],
+            "price":"$20"
+        },
+        {
+            "id": 6,
+            "category": "Games",
+            "title":"Overwatch",
+            "image":"/img/games/games-6a.jpeg",
+            "images":[
+                "/img/games/games-6a.jpeg",
+                "/img/games/games-6b.jpeg",
+                "/img/games/games-6c.jpg",
+                "/img/games/games-6d.jpeg"
+            ],
+            "price":"$30"
+        },
+        {
+            "id": 7,
+            "category": "Games",
+            "title":"Uncharted 4",
+            "image":"/img/games/games-7a.webp",
+            "images":[
+                "/img/games/games-7a.webp",
+                "/img/games/games-7b.webp",
+                "/img/games/games-7c.webp",
+                "/img/games/games-7d.jpg"
+            ],
+            "price":"$50"
+        },
+        {
+            "id": 8,
+            "category": "Games",
+            "title":"God of War Ragnarok",
+            "image":"/img/games/games-8a.jpeg",
+            "images":[
+                "/img/games/games-8a.jpeg",
+                "/img/games/games-8b.webp",
+                "/img/games/games-8c.webp",
+                "/img/games/games-8d.jpeg"
+            ],
+            "price":"$80"
+        },
+        {
+            "id": 9,
+            "category": "Games",
+            "title":"Genshin Impact",
+            "image":"/img/games/games-9a.jpg",
+            "images":[
+                "/img/games/games-9a.jpg",
+                "/img/games/games-9b.jpeg",
+                "/img/games/games-9c.webp",
+                "/img/games/games-9d.webp"
+            ],
+            "price":"$30"
+        },
+        {
+            "id": 10,
+            "category": "Games",
+            "title":"Valorant",
+            "image":"/img/games/games-10a.webp",
+            "images":[
+                "/img/games/games-10a.webp",
+                "/img/games/games-10b.webp",
+                "/img/games/games-10c.jpeg",
+                "/img/games/games-10d.webp"
+            ],
+            "price":"$10"
+        },
+        {
+            "id": 11,
+            "category": "Games",
+            "title":"League of Legends",
+            "image":"/img/games/games-11a.avif",
+            "images":[
+                "/img/games/games-11a.avif",
+                "/img/games/games-11b.webp",
+                "/img/games/games-11c.avif",
+                "/img/games/games-11d.jpeg"
+            ],
+            "price":"$0"
+        },
+        {
+            "id": 12,
+            "category": "Games",
+            "title":"GTA 5",
+            "image":"/img/games/games-12a.jpg",
+            "images":[
+                "/img/games/games-12a.jpg",
+                "/img/games/games-12b.jpeg",
+                "/img/games/games-12c.jpeg",
+                "/img/games/games-12d.jpeg"
+            ],
+            "price":"$60"
+        },
+        {
+            "id": 13,
+            "category": "Posters",
+            "title":"Super Mario Posters",
+            "image":"/img/posters/pos-1a.webp",
+            "images":[
+                "/img/posters/pos-1a.webp",
+                "/img/posters/pos-1b.jpeg",
+                "/img/posters/pos-1c.jpeg",
+                "/img/posters/pos-1d.webp"
+            ],
+            "price":"$5"
+        },
+        {
+            "id": 14,
+            "category": "Posters",
+            "title":"Donkey Kong Posters",
+            "image":"/img/posters/pos-2a.jpeg",
+            "images":[
+                "/img/posters/pos-2a.jpeg",
+                "/img/posters/pos-2b.webp",
+                "/img/posters/pos-2c.jpg",
+                "/img/posters/pos-2d.avif"
+            ],
+            "price":"$5"
+        },
+        {
+            "id": 15,
+            "category": "Posters",
+            "title":"Diablo Posters",
+            "image":"/img/posters/pos-3a.webp",
+            "images":[
+                "/img/posters/pos-3a.webp",
+                "/img/posters/pos-3b.jpeg",
+                "/img/posters/pos-3c.webp",
+                "/img/posters/post-3d.jpeg"
+            ],
+            "price":"$5"
+        },
+        {
+            "id": 16,
+            "category": "Posters",
+            "title":"WOW Posters",
+            "image":"/img/posters/post-4a.webp",
+            "images":[
+                "/img/posters/post-4a.webp",
+                "/img/posters/pos-4b.jpeg",
+                "/img/posters/pos-4c.jpeg",
+                "/img/posters/pos-4d.jpg"
+            ],
+            "price":"$20"
+        },
+        {
+            "id": 17,
+            "category": "Posters",
+            "title":"Ninjago Posters",
+            "image":"/img/posters/pos-5a.webp",
+            "images":[
+                "/img/posters/pos-5a.webp",
+                "/img/posters/pos-5b-webp",
+                "/img/posters/pos-5c.jpg",
+                "/img/posters/pos-5d.jpeg"
+            ],
+            "price":"$5"
+        },
+        {
+            "id": 18,
+            "category": "Posters",
+            "title":"Red Dead Posters",
+            "image":"/img/posters/pos-6a.jpeg",
+            "images":[
+                "/img/posters/pos-6a.jpeg",
+                "/img/posters/pos-6b.jpeg",
+                "/img/posters/pos-6c.jpeg",
+                "/img/posters/pos-6d.avif"
+            ],
+            "price":"$5"
+        },
+        {
+            "id": 19,
+            "category": "Battlefield Posters",
+            "title":"Striped Tank Top",
+            "image":"/img/posters/pos-7a.jpg",
+            "images":[
+                "/img/posters/pos-7a.jpg",
+                "/img/posters/pos-7b.jpeg",
+                "/img/posters/pos-7c.jpeg",
+                "/img/posters/pos-7d.jpeg"
+            ],
+            "price":"$5"
+        },
+        {
+            "id": 20,
+            "category": "Posters",
+            "title":"PacMan Posters",
+            "image":"/img/posters/pos-8a.jpeg",
+            "images":[
+                "/img/posters/pos-8a.jpeg",
+                "/img/posters/pos-8b.jpeg",
+                "/img/posters/pos-8c.webp",
+                "/img/posters/pos-8d.jpeg"
+            ],
+            "price":"$5"
+        },
+        {
+            "id": 21,
+            "category": "Posters",
+            "title":"Astroids Posters",
+            "image":"/img/posters/pos-9a.jpeg",
+            "images":[
+                "/img/posters/pos-9a.jpeg",
+                "/img/posters/pos-9b.avif",
+                "/img/posters/pos-9c.jpeg",
+                "/img/posters/pos-9d.jpg"
+            ],
+            "price":"$5"
+        },
+        {
+            "id": 22,
+            "category": "Posters",
+            "title":"Sims Posters",
+            "image":"/img/posters/pos-10a.jpg",
+            "images":[
+                "/img/posters/pos-10a.jpg",
+                "/img/posters/pos-10b.webp",
+                "/img/posters/pos-10c.webp",
+                "/img/posters/pos-10d.jpeg"
+            ],
+            "price":"$5"
+        },
+        {
+            "id": 23,
+            "category": "Posters",
+            "title":"Mortal Kombat Posters",
+            "image":"/img/posters/pos-11a.avif",
+            "images":[
+                "/img/posters/pos-11a.avif",
+                "/img/posters/pos-11b.webp",
+                "/img/posters/pos-11c.webp",
+                "/img/posters/pos-11d.webp"
+            ],
+            "price":"$5"
+        },
+        {
+            "id": 24,
+            "category": "Posters",
+            "title":"Plants v Zombies Posters",
+            "image":"/img/posters/pos-12a.jpg",
+            "images":[
+                "/img/posters/pos-12a.jpg",
+                "/img/posters/pos-12b.jpeg",
+                "/img/posters/pos-12c.jpg",
+                "/img/posters/pos-12d.webp"
+            ],
+            "price":"$5"
+        },
+        {
+            "id": 25,
+            "category": "Accessories",
+            "title":"Gulikit Controller",
+            "image":"/img/accessories/acc-1a.jpeg",
+            "images":[
+                "/img/accessories/acc-1a.jpeg",
+                "/img/accessories/acc-1b.jpeg",
+                "/img/accessories/acc-1c.jpeg",
+                "/img/accessories/acc-1d.jpeg"
+            ],
+            "price":"$60"
+        },
+        {
+            "id": 26,
+            "category": "Accessories",
+            "title":"Headset",
+            "image":"/img/accessories/acc-2a.jpeg",
+            "images":[
+                "/img/accessories/acc-2a.jpeg",
+                "/img/accessories/acc-2b.jpeg",
+                "/img/accessories/acc-2c.webp",
+                "/img/accessories/acc-2d.jpeg"
+            ],
+            "price":"$40"
+        },
+        {
+            "id": 27,
+            "category": "Accessories",
+            "title":"Mario Figure",
+            "image":"/img/accessories/acc-3a.jpeg",
+            "images":[
+                "/img/accessories/acc-3a.jpeg",
+                "/img/accessories/acc-3b.webp",
+                "/img/accessories/acc-3c.jpeg",
+                "/img/accessories/acc-3d.jpeg"
+            ],
+            "price":"$15"
+        },
+        {
+            "id": 28,
+            "category": "Accessories",
+            "title":"Joycon Charger",
+            "image":"/img/accessories/acc-4a.avif",
+            "images":[
+                "/img/accessories/acc-4a.avif",
+                "/img/accessories/acc-4b.jpeg",
+                "/img/accessories/acc-4c.jpeg",
+                "/img/accessories/acc-4d.jpeg"
+            ],
+            "price":"$60"
+        },
+        {
+            "id": 29,
+            "category": "Accessories",
+            "title":"Mousepad",
+            "image":"/img/accessories/acc-5a.webp",
+            "images":[
+                "/img/accessories/acc-5a.webp",
+                "/img/accessories/acc-5b.jpeg",
+                "/img/accessories/acc-5c.jpeg",
+                "/img/accessories/acc-5d.ebp"
+            ],
+            "price":"$50"
+        },
+        {
+            "id": 30,
+            "category": "Accessories",
+            "title":"Keyboard",
+            "image":"/img/accessories/acc-6a.jpg",
+            "images":[
+                "/img/accessories/acc-6a.jpg",
+                "/img/accessories/acc-6b.jpeg",
+                "/img/accessories/acc-6c.jpg",
+                "/img/accessories/acc-6d.webp"
+            ],
+            "price":"$55"
+        },
+        {
+            "id": 31,
+            "category": "Accessories",
+            "title":"Mouse",
+            "image":"/img/accessories/acc-7a.avif",
+            "images":[
+                "/img/accessories/acc-7a.avif",
+                "/img/accessories/acc-7b.webp",
+                "/img/accessories/acc-7c.jpeg",
+                "/img/accessories/acc-7d.webp"
+            ],
+            "price":"75"
+        },
+        {
+            "id": 32,
+            "category": "Accessories",
+            "title":"Hoodies",
+            "image":"/img/accessories/acc-8a.webp",
+            "images":[
+                "/img/accessories/acc-8a.webp",
+                "/img/accessories/acc-8b.webp",
+                "/img/accessories/acc-8c.webp",
+                "/img/accessories/acc-8d.webp"
+            ],
+            "price":"$25"
+        },
+        {
+            "id": 33,
+            "category": "Accessories",
+            "title":"Gfuel",
+            "image":"/img/accessories/acc-9a.webp",
+            "images":[
+                "/img/accessories/acc-9a.webp",
+                "/img/accessories/acc-9b.webp",
+                "/img/accessories/acc-9c.jpeg",
+                "/img/accessories/acc-9d.webp"
+            ],
+            "price":"$60"
+        },
+        {
+            "id": 34,
+            "category": "Accessories",
+            "title":"Finger Chopsticks",
+            "image":"/img/accessories/acc-10a.webp",
+            "images":[
+                "/img/accessories/acc-10a.webp",
+                "/img/accessories/acc-10b.webp",
+                "/img/accessories/acc-10c.avif",
+                "/img/accessories/acc-10d.webp"
+            ],
+            "price":"$80"
+        },
+        {
+            "id": 35,
+            "category": "Accessories",
+            "title":"Gaming Chair",
+            "image":"/img/accessories/acc-11a.avif",
+            "images":[
+                "/img/accessories/acc-11a.avif",
+                "/img/accessories/acc-11b.webp",
+                "/img/accessories/acc-11c.avif",
+                "/img/accessories/acc-11d.jpeg"
+            ],
+            "price":"$1,700"
+        },
+        {
+            "id": 36,
+            "category": "Accessories",
+            "title":"Shakers",
+            "image":"/img/accessories/acc-12a.webp",
+            "images":[
+                "/img/accessories/acc-12a.webp",
+                "/img/accessories/acc-12b.webp",
+                "/img/accessories/acc-12c.jpeg",
+                "/img/accessories/acc-12d.jpeg"
+            ],
+            "price":"$10"
+        }
+    ]
+}

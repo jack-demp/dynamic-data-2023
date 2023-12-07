@@ -1,0 +1,44 @@
+
+<div class="section-divider" id="about"></div>
+<h1 class="color3">Shopping Cart</h1>
+
+{{#if cart.length}}
+    
+    <ul class="cart-list">
+        {{#each cart}}
+            <li>
+                <img class="cart-img" src="{{this.image}}" alt="{{this.title}}">
+                <ul class="cart-item-details">
+                    <li>{{this.title}}</li>
+                    <li>{{this.price}}</li>
+                    <li>One of our fashionable {{this.category}}</li>
+                </ul>
+            </li>
+        {{/each}}
+    </ul>   
+    <form id="checkout-form" method="post" action="/checkout">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <h5>Total: ${{this.cartPrice}}.00</h5>
+
+        <button type="submit">Checkout</button>
+    </form>
+
+{{else}}
+    <p>Your shopping cart is empty.</p>
+{{/if}}
+
+
+<footer class="white-bg">
+  Copyright 2023 - Jack Dempster
+</footer>

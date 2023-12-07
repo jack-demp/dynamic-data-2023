@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Jack",
+    "address": "7025 Southwest Ave",
+    "email": "jackdemp@gmail.com",
+    "phone": "(415)988-0421",
+    "items": [
+      {
+        "id": 14,
+        "category": "Posters",
+        "title": "Red Crop Top",
+        "image": "/img/posters/t-2-a.jpg",
+        "images": [
+          "/img/posters/t-2-a.jpg",
+          "/img/posters/t-2-b.jpg",
+          "/img/posters/t-2-c.jpg",
+          "/img/posters/t-2-d.jpg"
+        ],
+        "price": "$60"
+      }
+    ]
+  },
+  {
+    "name": "Jack",
+    "address": "7025 Southwest Ave",
+    "email": "jackdemp@gmail.com",
+    "phone": "(415)988-0421",
+    "items": [
+      {
+        "id": 31,
+        "category": "Accessories",
+        "title": "Black Drawstring Pants",
+        "image": "/img/accessories/b-7-a.jpg",
+        "images": [
+          "/img/accessories/b-7-a.jpg",
+          "/img/accessories/b-7-b.jpg",
+          "/img/accessories/b-7-c.jpg",
+          "/img/accessories/b-7-d.jpg"
+        ],
+        "price": "$50"
+      }
+    ]
+  },
+  {
+    "name": "Jack",
+    "address": "7025 Southwest Ave",
+    "email": "jackdemp@gmail.com",
+    "phone": "(415)988-0421",
+    "items": [
+      {
+        "id": 2,
+        "category": "Games",
+        "title": "Green Zip-Up Sweatshirt",
+        "image": "/img/games/o-2-a.jpg",
+        "images": [
+          "/img/games/o-2-a.jpg",
+          "/img/games/o-2-b.jpg",
+          "/img/games/o-2-c.jpg",
+          "/img/games/o-2-d.jpg"
+        ],
+        "price": "$30"
+      }
+    ]
+  }
+]
