@@ -1,0 +1,41 @@
+{
+    "items":[
+        {
+            "id":31,
+            "category":"cosmetics",
+            "name":"Eyeliner",
+            "price":29.99,
+            "images":[
+                {"src":"/images/image1.jpg"},
+                {"src":"/images/image2.jpg"},
+                {"src":"/images/image3.jpg"}
+            ],
+            "description":"Product changes tv channels and volume"
+        },
+        {
+            "id":33,
+            "category":"electronics",
+            "name":"Remote Control",
+            "price":29.99,
+            "images":[
+                {"src":"/images/image1.jpg"},
+                {"src":"/images/image2.jpg"},
+                {"src":"/images/image3.jpg"}
+            ],
+            "description":"Product changes tv channels and volume"
+        },
+        {
+            "id":34,
+            "category":"electronics",
+            "name":"Television",
+            "price":299.99,
+            "images":[
+                {"src":"/images/image1.jpg"},
+                {"src":"/images/image2.jpg"},
+                {"src":"/images/image3.jpg"}
+            ],
+            "description":"Large tv with stand"
+        }
+        
+    ]
+}

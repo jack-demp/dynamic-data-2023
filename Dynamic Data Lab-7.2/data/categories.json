@@ -1,0 +1,11 @@
+{"categories":[
+    {
+        "name":"Cosmetics",
+        "url":"cosmetics",
+        "image":"/images/cosmetics.png"
+    },    {
+        "name":"Electronics",
+        "url":"electronics",
+        "image":"/images/electronics.png"
+    }
+]}
